@@ -14,6 +14,12 @@ I have stereo blindness, meaning my brain doesn't combine the images from my two
 
 The main scene is `Assets/Scenes/SampleScene.unity`.
 
+## Test images
+
+`LeftImage` and `RightImage` use `eccentric circle left (first attempt).png` and `eccentric circle right (first attempt).png`. They're a stereo pair based on the eccentric circles exercise from vision therapy. Each image is a ring with an inner ring offset in opposite directions, so when the two are fused, the inner ring appears to float in depth.
+
+Other stereo pairs can be used by swapping the sprites on `LeftImage` and `RightImage` (imported with Texture Type set to Sprite), with no code changes.
+
 ## Status
 
 This is an early prototype. It demonstrates the per-eye rendering setup with a basic test image. It isn't a finished training tool, but using it did help improve my own stereo acuity.
