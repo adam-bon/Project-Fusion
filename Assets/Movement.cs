@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JoystickControl : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     public float speed = 1.0f; // adjust to control the speed of movement
 

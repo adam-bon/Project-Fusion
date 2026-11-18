@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR;
 
-public class MoveSpriteWithJoystick : MonoBehaviour
+public class LeftJoystickMovement : MonoBehaviour
 {
     private Vector2 joystickPosition;
 
